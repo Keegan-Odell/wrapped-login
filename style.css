@@ -26,16 +26,16 @@ p {
 .sidebar {
 	display: flex;
 	height: 100vh;
-	width: 33vw;
+	width: 26.47vw;
 }
 
 .sideBarImage {
-	background-image: none;
 	height: 100vh;
+	width: 26.47vw;
 }
 
 .logoBlack {
-	width: 26.5%;
+	width: 26.47vw;
 	background-color: black;
 	height: 150px;
 	position: absolute;
@@ -128,4 +128,9 @@ label {
 	font-weight: bold;
 	position: absolute;
 	top: 63vh;
+}
+
+a {
+	color: lightskyblue;
+	text-decoration: none;
 }
