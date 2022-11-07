@@ -11,11 +11,69 @@
 	<body>
 		<header></header>
 		<main>
-			<div class="sidebar"></div>
-			<div class="sign-up"></div>
+			<div class="sidebar">
+				<img
+					src="images/spiritedAway2.png"
+					alt="an image from the movie Spirited Away"
+					class="sideBarImage"
+				/>
+				<div class="logoContainer">
+					<div class="logoBlack"></div>
+					<div class="logoWriting">Wrapped</div>
+					<img src="images/logo.png" alt="wrapped logo" class="logo" />
+				</div>
+			</div>
+			<div class="sign-up">
+				<div class="contentExplanation">
+					<p>
+						Wrapped is your all in one place for Movies and TV shows. You can
+						rate, discuss, and recommend Movies and TV. Wrapped uses its
+						powerful AI engine to recommend your next movie or show based on
+						your personal ratings. Wrapped can help you build lists of your
+						favorite shows to share with friends. Wrapped can even have
+						showtimes for your local theater, and which streaming services have
+						your desiered content. Wrapped can even help you purchase your next
+						movie ticket.
+					</p>
+					<p>Time to get rid of all your movie apps and move to Wrapped!</p>
+				</div>
+				<div class="signUpForm">
+					<div class="signUpContent">Sign Up Today!</div>
+					<div class="signUpFormLeft">
+						<form>
+							<label for="username">Username:</label><br />
+							<input type="text" name="username" id="username" /><br />
+							<label for="password">Password:</label><br />
+							<input type="text" name="password" id="password" /><br />
+
+							<label for="birthdate">Birthday:</label><br />
+							<input type="date" name="birthdate" id="birthdate" /><br />
+						</form>
+					</div>
+					<div class="signUpFormRight">
+						<form>
+							<label for="email">Email</label><br />
+							<input type="text" name="email" id="email" /><br />
+							<label for="confirmPassword">Confirm Password:</label><br />
+							<input
+								type="text"
+								name="confirmPassword"
+								id="confirmPassword"
+							/><br />
+							<label for="gender">Gender:</label><br />
+							<select name="gender" id="gender">
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+								<option value="other">Other</option>
+							</select>
+						</form>
+					</div>
+					<button type="submit" id="submit">Create Account</button>
+				</div>
+			</div>
 		</main>
 		<footer>
-			<div class="createAccount"></div>
+			<div class="logIn">Already have an account? <a href="#">Log In!</a></account></div>
 		</footer>
 	</body>
 </html>
