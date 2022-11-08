@@ -110,16 +110,30 @@ label {
 }
 
 #gender {
-	width: 185px;
-	height: 20px;
+	width: 219px;
+	height: 18px;
+	font-size: 1rem;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border: 2px;
 }
 
 #birthdate {
-	width: 185px;
-	height: 20px;
+	width: 219px;
+	height: 18px;
+	font-size: 1rem;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border: 2px;
 }
 
-#submit {
+#btn {
 	margin-top: 40px;
 	height: 2.5rem;
 	width: 10rem;
@@ -133,4 +147,25 @@ label {
 a {
 	color: lightskyblue;
 	text-decoration: none;
+}
+
+:invalid {
+	border-color: red;
+}
+
+:hover {
+	border-color: lightskyblue;
+}
+
+:active {
+	border-color: lightskyblue;
+}
+
+:focus {
+	outline: 2px lightskyblue;
+}
+
+input {
+	font-size: 1rem;
+	font-weight: bold;
 }
